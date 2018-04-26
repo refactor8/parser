@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'parser'
+
+if ARGV.empty?
+  puts "Usage: parser <logfile>"
+else
+  Parser::CLI.new(ARGV[0]).print
+end
