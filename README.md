@@ -44,7 +44,7 @@ Or install it yourself as:
 
 ## Usage
 
-```$ parser <logfile>``
+```$ parser <logfile>```
 
 ## Development
 
